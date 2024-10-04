@@ -1,0 +1,106 @@
+{
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+}
+
+body{
+  background-image: linear-gradient(225deg, #d44fff 0,#e8a329  0, #7724f3 100%);
+  font-family: Comic Sans MS;
+  font-size: 20px;
+
+}
+.contenedor-principal{
+  background-color: #b95073;
+  width: 90%;
+  max-width: 1000px;
+  margin:50px auto;
+  padding: 50 px;
+  border-radius: 15px;
+
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.logos{
+  font-size: 40px;
+  font-weight: 900;
+  color: #e6ccd0 ;
+  text-decoration: none;
+
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu a{
+  font-size: 25px;
+  border-bottom: 2px solid red;
+  margin-left: 40px;
+  color: ##dfdfdf ; LETRAS MENU
+  text-decoration: none;
+  transition: all 0.5s ease;
+
+}
+
+.menu a:hover{  
+  border-bottom: 2px solid #E6ccd0 ;
+}
+main{
+  display:flex; 
+  justify-content: flex-end;
+  align-items: center;
+}
+main.contenedor-image{
+  width: 40%;
+  margin-right: 40px;
+}
+img{
+  height: 300px;
+  width: 280px;
+  border-radius: 50%;
+}
+
+.contenedor-texto .titulo{
+  font-size: 45px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.contenedor-texto p{
+  margin-bottom: 40px;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+.contenedor-texto .cafe{
+  font-weight: bold;
+  color: #dcbabf ;
+  font-style: normal;
+}
+
+.btn_link{
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 100px;
+  background:#dc7633 ;
+  margin-right: 15px;
+  text-decoration: none;
+  color: #fdfefe;
+}
+
+.btn_link:hover,
+.btn_link activo{
+  color: white;
+  background:#212f3d ;
+}
+
